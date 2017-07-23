@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
 <generatorConfiguration >
-   <context id="context1" targetRuntime="MyBatis3">
  <!-- ojdbc-14.jar存在的决定路径 -->
-	<!--<classPathEntry
-		location="F:\oracle\product\10.2.0\db_1\jdbc\lib\ojdbc14.jar" /> -->
+	 <classPathEntry location="E:\work\mysql-connector-java-5.1.30.jar" />
+       
+   <context id="context1" targetRuntime="MyBatis3">
+ 
        <commentGenerator>
 
            <!-- 是否去除自动生成的注释 true：是： false:否 -->
@@ -78,14 +79,9 @@
 
        <!-- 指定数据库表 -->
  
-	 <table schema="" tableName="tzx_company" enableDeleteByExample="true"
-			enableSelectByExample="true" enableCountByExample="true"
-			enableUpdateByExample="true">
-			<property name="ignoreQualifiersAtRuntime" value="true" />
-			<property name="useActualColumnNames" value="false" />
-		</table>  
+ 
      
- 	<table schema="" tableName="tzx_home" enableDeleteByExample="true"
+ 	<table schema="" tableName="test_tree" enableDeleteByExample="true"
 			enableSelectByExample="true" enableCountByExample="true"
 			enableUpdateByExample="true">
 			<property name="ignoreQualifiersAtRuntime" value="true" />
